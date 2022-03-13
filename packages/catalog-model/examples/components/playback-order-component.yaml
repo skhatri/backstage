@@ -5,6 +5,7 @@ metadata:
   description: Playback Order description
   annotations:
     backstage.io/kubernetes-id: todo  
+    backstage.io/techdocs-ref: url:https://github.com/skhatri/backstage/tree/master
   tags:
     - java
     - playback
