@@ -6,6 +6,7 @@ metadata:
   annotations:
     backstage.io/kubernetes-id: todo  
     backstage.io/techdocs-ref: url:https://github.com/skhatri/microservices-starter-java/tree/master
+    backstage.io/kubernetes-label-selector: 'app=todo,component=front-end'
   tags:
     - java
     - playback
