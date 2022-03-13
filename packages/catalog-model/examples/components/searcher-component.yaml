@@ -4,6 +4,7 @@ metadata:
   name: searcher
   annotations:
     backstage.io/kubernetes-id: "k8s-read"
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/name=k8s-read'
   description: Searcher
   tags:
     - go
