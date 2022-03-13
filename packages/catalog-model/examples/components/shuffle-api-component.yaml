@@ -4,6 +4,7 @@ metadata:
   name: shuffle-api
   annotations:
       backstage.io/kubernetes-label-selector: 'app.kubernetes.io/name=elasticsearch'
+      argocd/app-name: 'elasticsearch'
   description: Shuffle API
   tags:
     - go
