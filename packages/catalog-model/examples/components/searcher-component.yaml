@@ -5,6 +5,8 @@ metadata:
   annotations:
     backstage.io/kubernetes-id: "k8s-read"
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/name=k8s-read'
+    argocd/app-name: "k8s-read"
+
   description: Searcher
   tags:
     - go
